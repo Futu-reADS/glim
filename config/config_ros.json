@@ -41,7 +41,7 @@
     "acc_scale": 1.0,
     // TF config
     "imu_frame_id": "imu",
-    "lidar_frame_id": "lidar",
+    "lidar_frame_id": "hesai_top_base_link",  // "lidar",
     "base_frame_id": "",
     "odom_frame_id": "odom",
     "map_frame_id": "map",
@@ -56,7 +56,7 @@
     ],
     // Topics
     "imu_topic": "/os_cloud_node/imu",
-    "points_topic": "/os_cloud_node/points",
+    "points_topic": "/sensing/lidar/top/hesai_points_decimated", // "/os_cloud_node/points",
     "image_topic": "/image"
   }
 }

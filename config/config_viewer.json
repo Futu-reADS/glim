@@ -27,7 +27,7 @@
       -2.0,
       4.0
     ],
-    "enable_partial_rendering": false,
+    "enable_partial_rendering": true, // false,
     "partial_rendering_budget": 1024,
     "point_shape_circle": true,
     "point_size_metric": false,
